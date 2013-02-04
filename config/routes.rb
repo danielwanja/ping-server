@@ -1,7 +1,8 @@
 Gag::Application.routes.draw do
   get "ping/index"
 
-  get "ping/pong"
+  get "ping/toggle"
+  post "ping/toggle"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
